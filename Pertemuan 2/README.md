@@ -7,7 +7,7 @@
 
 **Jawab:**
 
-![Gambar Skematik Percobaan 2A](Percobaan 2A_ Seven Segment_page-0001.png)
+![Gambar Skematik Percobaan 2A](Percobaan 2A_ Seven Segment_page-0001.jpg)
 
 -----
 
@@ -88,7 +88,7 @@ void loop() {
 
 **Jawab:**
 
-![Gambar Skematik Percobaan 2A](Percobaan 2A_ Seven Segment_page-0001.png)
+![Gambar Skematik Percobaan 2A](Percobaan 2B_ Kontrol Counter Dengan Push Button_page-0001.jpg)
 
 **2. Mengapa pada push button digunakan mode INPUT\_PULLUP pada Arduino Uno? Apa keuntungannya dibandingkan rangkaian biasa?**
 
