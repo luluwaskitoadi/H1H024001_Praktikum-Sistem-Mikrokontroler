@@ -6,8 +6,7 @@
 **1. Gambarkan rangkaian schematic yang digunakan pada percobaan\!**
 
 **Jawab:**
-
-![Gambar Skematik Percobaan 2A](Percobaan 2A_ Seven Segment_page-0001.jpg)
+![Percobaan 2A_ Seven Segment_page-0001](https://github.com/user-attachments/assets/ea4d85ee-98c8-44d4-a314-ba5b2cfef4be)
 
 -----
 
@@ -87,8 +86,9 @@ void loop() {
 **1. Gambarkan rangkaian schematic yang digunakan pada percobaan\!**
 
 **Jawab:**
+![Percobaan 2B_ Kontrol Counter Dengan Push Button_page-0001](https://github.com/user-attachments/assets/4059f6fe-49e9-4369-894b-1c5ca1953304)
 
-![Gambar Skematik Percobaan 2A](Percobaan 2B_ Kontrol Counter Dengan Push Button_page-0001.jpg)
+-----
 
 **2. Mengapa pada push button digunakan mode INPUT\_PULLUP pada Arduino Uno? Apa keuntungannya dibandingkan rangkaian biasa?**
 
@@ -97,6 +97,8 @@ void loop() {
   * **Keuntungan:**
     1.  **Efisiensi Komponen:** Tidak memerlukan resistor eksternal di *breadboard*, sehingga rangkaian lebih ringkas.
     2.  **Stabilitas Sinyal:** Mencegah kondisi *floating* (sinyal mengambang), sehingga pin secara stabil membaca HIGH saat tombol dilepas dan LOW saat tombol ditekan.
+ 
+-----
 
 **3. Jika salah satu LED segmen tidak menyala, apa saja kemungkinan penyebabnya dari sisi hardware maupun software?**
 
@@ -111,6 +113,7 @@ void loop() {
       * Salah mendefinisikan nomor pin dalam array `segmentPins`.
       * Kesalahan logika (angka `0` seharusnya `1`) pada `digitPattern` untuk segmen tertentu.
       * Lupa mengatur pin tersebut sebagai `OUTPUT` pada fungsi `setup()`.
+-----
 
 **4. Modifikasi program dengan dua push button (Increment & Decrement)**
 
