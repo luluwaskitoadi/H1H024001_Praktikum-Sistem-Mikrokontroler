@@ -1,6 +1,6 @@
 # Percoaan 2: Pulse Width Modulation (PWM)
 
-## Jawaban Praktikum
+## Jawaban Pertanyaan Praktikum
 
 ### Soal 1: Jelaskan mengapa LED dapat diatur kecerahannya menggunakan fungsi analogWrite()!
 
