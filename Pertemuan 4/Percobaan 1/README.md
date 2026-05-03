@@ -32,11 +32,11 @@ Link simulasi Modifikasi: https://www.tinkercad.com/things/c31qlPVEV9C-analog-to
 
 Servo myservo;
 
-const int potPin = A0;
+const int potensioPin = A0;
 const int servoPin = 9;
 
-int val = 0;
 int pos = 0;
+int val = 0;
 
 void setup() {
   myservo.attach(servoPin);
@@ -44,19 +44,21 @@ void setup() {
 }
 
 void loop() {
-  val = analogRead(potPin);
+  // Baca ADC 10-bit lalu geser kanan 2 bit → 8-bit (0–255)
+  val = analogRead(potensioPin) >> 2;
 
+  // Map 8-bit (0–255) ke sudut servo (0–180)
   pos = map(val,
-            0,    // minimum ADC
-            1023, // maksimum ADC
-            30,   // sudut minimum servo
+            0,    // nilai minimum ADC
+            1023,  // nilai maksimum ADC
+            30,    // sudut minimum servo
             150); // sudut maksimum servo
 
   myservo.write(pos);
 
-  Serial.print("ADC: ");
+  Serial.print("ADC Potensio: ");
   Serial.print(val);
-  Serial.print(" | Sudut: ");
+  Serial.print(" | Sudut Servo: ");
   Serial.println(pos);
 
   delay(15);
