@@ -1,2 +1,4 @@
-https://github.com/user-attachments/assets/dd09c519-5364-4581-9432-c46e595029c0
-Uploading Video Rangkaian ADC.mp4…
+
+
+https://github.com/user-attachments/assets/26929d21-1b03-49c8-aee8-574593ada8eb
+
