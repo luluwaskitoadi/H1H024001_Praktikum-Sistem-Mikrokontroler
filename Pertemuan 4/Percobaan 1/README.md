@@ -23,7 +23,9 @@ rentang ke rentang lain tanpa perlu perhitungan manual.
 ---
 
 ### Soal 3: Modifikasi program agar servo bergerak 30°–150°
+Link simulasi Modifikasi: https://www.tinkercad.com/things/c31qlPVEV9C-analog-to-digital-converter-adc
 <img width="1920" height="910" alt="image" src="https://github.com/user-attachments/assets/8445d470-201f-477d-941f-61240350801a" />
+
 
 ```cpp
 #include <Servo.h>
