@@ -87,5 +87,3 @@ void loop() {
 3. `myservo.write(pos)` menggerakkan servo ke sudut hasil konversi
 4. `Serial.print` menampilkan nilai ADC dan sudut ke Serial Monitor
 5. `delay(15)` memberi waktu servo untuk mencapai posisi target
-
----
